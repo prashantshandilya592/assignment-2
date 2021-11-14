@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="registration.css" />
+<body>
+
+    <head>
+        <h1>Registration Form</h1>
+    </head>
+
+ 
+    <div class="inputform">
+       
+        <form>
+            <table align="center" width="600px" height="600px">
+                <tr>
+                    <td><b>Name:</b></b></td>
+                    <td><input type="text" name="name" required maxlength="50" /></td>
+                </tr>
+                <tr>
+                    <td><b>Email:</b></td>
+                    <td><input type="email" name="email" required maxlength="50" /><b>@gmail.com</b></td>
+                </tr>
+                <tr>
+                    <td><b>Password:</td>
+                    <td><input type="password" name="password" required maxlength="50" /></td>
+                </tr>
+                <tr>
+                    <td><b>Gender:</td>
+                    <td><input id="gender1" type="radio" name="gender" value="male" required maxlength="50" /><b>Male
+                        </b>
+                        <input type="radio" id="gender2" name="gender" value="female" required
+                            maxlength="50" /><b>Female</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Date Of Birth:</b></td>
+                    <td><input type="date" name="dob" required maxlength="50" /></td>
+                </tr>
+                <tr>
+                    <td><b>AddressLine:</b></td>
+                    <td><textarea name="address" rows="7" cols="25" required maxlength="50"></textarea></td>
+                </tr>
+                <tr>
+                    <td><b>City:</b></td>
+                    <td><input type="text" name="city" required maxlength="50" /></td>
+                </tr>
+                <tr>
+                    <td><b>State:</b></td>
+                    <td><input type="text" name="state" required maxlength="50" /></td>
+                </tr>
+                <tr>
+                    <td><b>Country:</b></td>
+                    <td><select name="country" required maxlength="50">
+                            <option>Select-Country:</option>
+                            <option>India</option>
+                            <option>Pakistan</option>
+                            <option>China</option>
+                            <option>Bhutan</option>
+                            <option>USA</option>
+                            <option>France</option>
+                            <option>Other</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td><b>Contact:</b></td>
+                    <td><input type="number" name="contact" required maxlength="10" placeholder="eg.9876543210" /></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="register" id="button">
+                        <input type="reset" value="clear" id="button" >
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+body{
+    background-image: url(https://images.pexels.com/photos/3683056/pexels-photo-3683056.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+table{
+    padding-top: 20px;
+    font-size: 25px;
+    background: linear-gradient(45deg,rgb(60, 62, 116),rgb(38, 141, 189),rgb(86, 139, 86));
+    border-radius: 2%;
+    box-shadow: 0 0 10px black;
+}
+
+#button{
+    font-size: 20px;
+}
